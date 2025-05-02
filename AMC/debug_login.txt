@@ -1,0 +1,20 @@
+--- Nuevo intento de login ---
+Tiempo: 2025-04-28 18:25:33
+Email ingresado: juan@example.com
+Password ingresado: [OCULTO POR SEGURIDAD]
+Consulta de verificación: SELECT * FROM usuarios WHERE email = 'juan@example.com'
+Usuario encontrado en la base de datos
+Columnas en la tabla usuarios:
+Array
+(
+    [0] => id
+    [1] => nombre_usuario
+    [2] => email
+    [3] => contraseña
+    [4] => creado_en
+)
+
+Campo de contraseña encontrado: 'contraseña'
+Intentando verificar contraseña...
+Resultado de verificación: ÉXITO
+Login exitoso - Redirigiendo a index.php
